@@ -1,7 +1,66 @@
-*{
-    color:#555c6f;
+.wrapper{
+    width:100vw;
+    height:100vh;
+    background:url('images/1.png');
+    background-size:cover;
 }
-a{
+.head{
     
-    text-decoration:none;
+    display:flex;
+    justify-content: space-between;
+}
+.navbar {
+    width:504px;
+    margin-top:36px;
+}
+.navbar ul{
+    width:356px;
+    display:flex;
+    justify-content: space-between;
+ 
+   
+}
+.navbar ul li a{
+    font-size: 17px;
+    color: #555c6f;
+    font-family: "Stolzl";
+    text-decoration: none;
+   
+    font-weight: 400;
+}
+
+.logo{
+    font-size: 25px;
+    color: #555c6f;
+    font-family: "Stolzl";
+    margin-top:32px;
+    margin-left:152px;
+    font-weight: 200;
+}
+.intro{
+    margin-top: 132px;
+}
+
+.container{
+    margin-top:132px;
+    margin:0 auto;
+}
+.intro__inner{
+    width:100%;
+    max-width: 376px;
+   display:block;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    
+}
+.intro__title{
+    font-size: 37px;
+    color: #555c6f;
+    font-weight: 300;
+    font-family: "Stolzl";
+   text-align: center;
+    display:block;
+   
+   
 }
