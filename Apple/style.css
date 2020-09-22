@@ -1,8 +1,11 @@
+
+
 .wrapper{
     width:100vw;
     height:100vh;
     background:url('images/1.png');
     background-size:cover;
+
 }
 .head{
     
@@ -63,4 +66,32 @@
     display:block;
    
    
+}
+.about_us{
+    margin:0;
+    padding:0;
+}
+.box{
+    display:flex;
+    justify-content: space-between;
+    width:1264px;
+    height:568px;
+}
+.about_us_picture{
+    background:url('images/1.png');
+}
+.about_us_content{
+    background:#e4e4e4;
+}
+.about_us_header h1{
+    font-size: 37px;
+color: #101334;
+font-family: "Stolzl";
+text-align: center;
+}
+.about_us_text p{
+    font-size: 25px;
+    color: #555c6f;
+    font-weight: 300;
+    font-family: "Stolzl";
 }
